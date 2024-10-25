@@ -53,7 +53,6 @@ testimonialCardContainer.addEventListener("mousemove", (e) => {
 
   if (hoveredCard) {
     const rect = hoveredCard.getBoundingClientRect();
-    console.log("rect", rect);
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
